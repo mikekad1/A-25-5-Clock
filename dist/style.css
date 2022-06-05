@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Taviraj:wght@500&family=Vidaloka&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222f3e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Monoton', cursive;
+  min-height: 100vh;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: -50px 20px 20px;
+}
+
+.timer-container h1 {
+  text-align: center;
+}
+
+.timer-container h2 {
+  margin: 0;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0px 10px;
+  width: 50px;
+}
+
+.clock-container {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.clock-container span {
+  font-size: 50px;
+}
+
+.clock-container h1 {
+  margin: 0;
+}
